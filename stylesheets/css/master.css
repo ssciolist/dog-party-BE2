@@ -6,10 +6,17 @@ li {
   color: white;
 }
 
-img {
+img.round-dog {
   border-radius: 50%;
   border-style: solid;
   border-color: #207e9b;
+}
+
+.button {
+  color: #207e9b;
+  border-style: solid;
+  border-color: #207e9b;
+  padding: 10px, 10px, 10px, 10px;
 }
 
 nav, footer {
@@ -18,4 +25,16 @@ nav, footer {
 
 header {
   background-image: url("../images/park.jpg");
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
