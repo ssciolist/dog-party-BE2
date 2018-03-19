@@ -1,0 +1,21 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+li {
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #207e9b;
+}
+
+nav, footer {
+  background-color: #5cc1e0;
+}
+
+header {
+  background-image: url("../images/park.jpg");
+}
